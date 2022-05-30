@@ -1,0 +1,38 @@
+#navbar{
+    height: 80px;
+    width: 99%;
+    margin: auto;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+#navbar>h4{
+    margin-right: 50px;
+}
+#menu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    gap: 30px;
+    margin: auto;
+}
+#menu>div{
+    border: 1px solid black;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 5%;
+}
+#menu>div>img{
+    height: 150px;
+    width: 200px;
+}
+#menu>div>button{
+    cursor: pointer;
+    background: rgb(18, 15, 15);
+    color: white;
+    height: 40px;
+    width: 100px;
+    border: 0;
+    border-radius: 5px;
+}
